@@ -1,0 +1,19 @@
+#servicos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--gray-100);
+  padding-top: 88px;
+  padding-bottom: 120px;
+
+  #links {
+    width: 888px;
+    display: grid;
+    grid-template-columns: repeat(3,280px);
+    gap: 24px;
+
+    img {
+      margin-bottom: 20px;
+    }
+  }
+}
