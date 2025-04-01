@@ -1,0 +1,51 @@
+.subtitle {
+  font: var(--subtitle);
+  color: var(--gray-500);
+}
+
+.red {
+  color: var(--red);
+}
+
+.title-lg {
+  font: var(--title-lg);
+  color: var(--gray-600);
+}
+
+p {
+  font: var(--text-sm);
+  color: var(--gray-500);
+}
+
+.title-sm {
+  font: var(--title-sm);
+  color: var(--gray-600);
+  margin-bottom: 8px;
+}
+
+.title-md {
+  font: var(--title-md);
+  color: var(--gray-600);
+}
+
+.tagform {
+  padding-inline: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+  
+  border-radius: 999px;
+  background-color: var(--gray-300);
+  text: var(--text-md);
+  height: 40px;
+
+  color: var(--gray-500);
+}
+
+.card {
+  background-color: var(--gray-300);
+  border-radius: 12px;
+  padding: 12px;
+}
