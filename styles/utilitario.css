@@ -7,6 +7,10 @@
   color: var(--red);
 }
 
+.purple {
+  color: var(--purple);
+}
+
 .title-lg {
   font: var(--title-lg);
   color: var(--gray-600);
@@ -62,4 +66,37 @@ p {
 
 .bg-gray-300 {
   background-color: var(--gray-300);
+}
+
+.socialButton {
+  display: flex;
+  width: 400px;
+  height: 68px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  padding: 20px;
+
+  img:first-child {
+    width: 28px;
+    height: 28px;
+  }
+
+  img:last-child {
+    width: 14px;
+    height: 14px;
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+}
+
+
+.text-md {
+  font: var(--text-md);
+  color: var(--gray-500);
 }
